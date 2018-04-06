@@ -1,0 +1,29 @@
+.background    { background: rgb(0, 0, 0);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 51, 0); }
+.wall          { background: rgb(204, 0, 153);   }
+.fireball      {background-image: url("images/fireball.gif");
+                background-size: 100%}
+
+.actor  { position: absolute;  }
+.moon   {background-image: url("images/SpinningMoon.gif");
+        background-size: 12px 12px}
+.Staff  {background-image: url("images/Staff.gif");
+        background-size: 12px 12px}
+.player { background: rgb(14, 224, 64); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
